@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./image/fundo.jpg");
+    background-size: cover;
+}
+
+.container {
+    border: solid;
+    border-radius: 5%;
+    max-width: 330px;
+    height: 250px;
+    margin-left: 35%;
+    margin-top: 5%;
+    background: rgb(238,154,213);
+    background: linear-gradient(0deg, rgba(238,154,213,1) 0%, rgba(53,70,176,1) 80%, rgba(39,63,173,1) 100%);
+}
+
+.container h1  {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container button {
+    font-size: 15px;
+    margin-left: 5px;
+    padding: 12px;
+    width: 100px;
+    margin-top: 30px;
+    background-color: rgb(238,154,213);
+}
+
+.container button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+form input {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 5%;
+    border-color: rgb(238,154,213);
+    padding: 5px;
+    margin-left: 5px;
+}
+
+table thead tr th {
+    padding-left: 45px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+table tbody tr td {
+    padding-left: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+}
